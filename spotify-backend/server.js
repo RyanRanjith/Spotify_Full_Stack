@@ -10,7 +10,7 @@ const port = process.env.PORT || 4000;
 app.use(express.json());
 app.use(cors());
 
-// initializing routes
+// initializing routes s
 
 app.get('/',(req,res)=>res.send("API Working"))
 
